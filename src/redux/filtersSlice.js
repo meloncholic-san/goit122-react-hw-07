@@ -1,4 +1,9 @@
 import { createSlice } from "@reduxjs/toolkit";
+
+export const selectTextFilter  = (state) => state.filters.searchFilter;
+
+
+
 const slice = createSlice({
     name: "filter",
     initialState: {
